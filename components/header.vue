@@ -21,4 +21,8 @@ header a{
   text-transform: uppercase;
 }
 
+header a.nuxt-link-exact-active{
+  border-bottom: none
+}
+
 </style>
