@@ -1,5 +1,3 @@
-const serveStatic = require('serve-static')
-
 module.exports = {
   head: {
     title: 'DreaMinder',
@@ -20,9 +18,5 @@ module.exports = {
   },
   plugins: [
     '@/plugins/date'
-  ],
-  serverMiddleware: [
-      { path: '/api/posts', handler: serveStatic(__dirname + '/api/posts.json') },
-      { path: '/api/posts/post', handler: serveStatic(__dirname + '/api/post.json') }
   ]
 }

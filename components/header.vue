@@ -2,7 +2,7 @@
   <header>
     <nav>
       <nuxt-link to="/">Посты</nuxt-link>
-      <nuxt-link to="/contact">Контакты</nuxt-link>
+      <nuxt-link to="/contact" v-if="false">Контакты</nuxt-link>
     </nav>
   </header>
 </template>
